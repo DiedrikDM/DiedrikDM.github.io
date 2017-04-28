@@ -57,8 +57,8 @@ html{
 }
 .posts article{
     padding: 25px;
-    margin-bottom: 50px;
     color: #21457f;
+    cursor: pointer;
 }
 .posts article:nth-child(odd){
     color: white;
