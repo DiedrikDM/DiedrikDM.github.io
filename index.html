@@ -7,7 +7,7 @@ overview: true
 <section class="posts">
     <h1>Recent Posts</h1>
     {% for post in site.posts offset: 0 limit: 5  %}
-        <article onclick="window.location={{post.url}};">
+        <article onclick="window.location='{{post.url}}';">
             <header>
                 <img class="avatar" src="{{ post.authoravatar }}" />
                 <h1 class="article-title">{{ post.title }}</h1>
