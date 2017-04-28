@@ -55,11 +55,21 @@ html{
     font-size: 1.75em;
     border-bottom: 1px solid;
 }
-.posts, .posts .article-title{
+.posts article{
+    padding: 25px;
+    margin-bottom: 50px;
+    color: #21457f;
+}
+.posts article:nth-child(even){
+    color: white;
+    background-color: #c4c4c4;
+}
+
+.posts .article-content, .posts .article-title{
     font-size: 1.1em;
     border: none;
     float: left;
-    color: #21457f;
+    color: inherit;
 }
 .posts .metadata{
     color: #c4c4c4;
