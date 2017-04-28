@@ -7,22 +7,14 @@ overview: true
 <section class="posts">
     <h1>Recent Posts</h1>
     {% for post in site.posts offset: 0 limit: 5  %}
-        <article data-url="{{post.url}}">
+        <article onclick="window.location={{post.url}};">
             <header>
                 <img class="avatar" src="{{ post.authoravatar }}" />
                 <h1 class="article-title">{{ post.title }}</h1>
                 <h2 class="metadata">Written by <a href="{{ post.authorurl }}" onclick="event.stopPropagation();">{{ post.author }}</a></h2>
             </header>
 
-            <div class="article-content">{{ post.content | limit:250 }}</div>
+            <div class="article-content">{{ post.content | truncate:250 }}</div>
         </article>
     {% endfor %}
 </section>
-<script>
-    document.querySelectorAll('article').forEach(function(element) {
-        var currentUrl = element.dataset["url"];
-        element.addEventListener('click', function(){
-            window.location = currentUrl;
-        });
-    });    
-</script>
