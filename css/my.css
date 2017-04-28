@@ -184,15 +184,14 @@ footer ul li a{
     }
 }
 #fourofour{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    bottom: 0;
     color: #21457f;
+    text-align: center;
 }
 #fourofour h1{
     font-size: 200px;
+    margin: 0;
 }
 #fourofour h2{
     font-size: 50px;
+    margin: 0;
 }

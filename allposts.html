@@ -3,4 +3,17 @@ layout: layout
 title: All Posts
 overview: true
 ---
-<p>These are all of the posts on my blog!</p>
+<section class="posts">
+    <h1>Recent Posts</h1>
+    {% for post in site.posts %}
+        <article onclick="window.location='{{post.url}}';">
+            <header>
+                <img class="avatar" src="{{ post.authoravatar }}" />
+                <h1 class="article-title">{{ post.title }}</h1>
+                <h2 class="metadata">Written by <a href="{{ post.authorurl }}" onclick="event.stopPropagation();">{{ post.author }}</a></h2>
+            </header>
+
+            <div class="article-content">{{ post.content | truncate:250 }}</div>
+        </article>
+    {% endfor %}
+</section>
