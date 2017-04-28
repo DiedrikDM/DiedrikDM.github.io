@@ -1,0 +1,24 @@
+{
+  "name": "diedrikdm.github.io",
+  "version": "1.0.0",
+  "description": "Personal blog for Diedrik De Mits",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiedrikDM/DiedrikDM.github.io.git"
+  },
+  "keywords": [
+    "Blog",
+    "Website"
+  ],
+  "author": "DiedrikDM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiedrikDM/DiedrikDM.github.io/issues"
+  },
+  "homepage": "https://DiedrikDM.github.io/",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-dest": "0.2.3",
+    "gulp-uglifycss": "1.0.8"
+  }
+}
