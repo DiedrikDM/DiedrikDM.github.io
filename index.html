@@ -7,13 +7,7 @@ title: Blog by Diedrik De Mits
     <h1>Recent Posts</h1>
     {% for post in site.posts offset: 0 limit: 5  %}
         <article>
-            <header>
-                <img class="avatar" src="{% post.authoravatar %}" />
-                <h1 class="article-title">{% post.title %}</h1>
-                <h2 class="metadata">Written by <a href="{% post.authorurl %}">{% post.author %}</a></h2>
-            </header>
-
-            <div class="article-content">{% post.description %}</div>
+            Hello World
         </article>
     {% endfor %}
     
