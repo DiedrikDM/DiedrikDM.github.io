@@ -60,15 +60,13 @@ html{
     margin-bottom: 50px;
     color: #21457f;
 }
-.posts article:nth-child(even){
+.posts article:nth-child(odd){
     color: white;
     background-color: #c4c4c4;
 }
-
-.posts .article-content, .posts .article-title{
+.posts .article-content{
     font-size: 1.1em;
     border: none;
-    float: left;
     color: inherit;
 }
 .posts .metadata{
@@ -89,6 +87,8 @@ html{
 .posts .article-title{
     font-size: 1.1em;
     border: none;
+    color: inherit;
+    float:left;
 }
 .posts .avatar{
     float: right;
