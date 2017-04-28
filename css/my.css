@@ -76,6 +76,9 @@ html{
     float: right;
     margin-top: 20px;
 }
+.posts article:nth-child(odd) .metadata{
+    color: white;
+}
 .posts header{
     display: table;
     width: 100%;
