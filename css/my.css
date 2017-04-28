@@ -41,6 +41,10 @@ html{
     background-color: white;
     color: #21457f;
 }
+.sidebar a.button.bottom{
+    position: absolute;
+    bottom: 20px;
+}
 .content{
     padding: 0;
     margin-left: 35%;
