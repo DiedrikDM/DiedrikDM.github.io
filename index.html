@@ -13,7 +13,7 @@ title: Blog by Diedrik De Mits
                 <h2 class="metadata">Written by <a href="{{ post.authorurl }}">{{ post.author }}</a></h2>
             </header>
 
-            <div class="article-content">{{ post.description }}</div>
+            <div class="article-content">{{ post.content | limit:250 }}</div>
         </article>
     {% endfor %}
     
