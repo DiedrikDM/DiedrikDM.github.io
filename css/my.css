@@ -135,6 +135,31 @@ footer ul li a{
     font-size: 0.8em;
     margin: 0 1em;
 }
+#fourofour{
+    color: #21457f;
+    text-align: center;
+}
+#fourofour h1{
+    font-size: 200px;
+    margin: 0;
+}
+#fourofour h2{
+    font-size: 50px;
+    margin: 0;
+}
+@media only screen and (min-width: 1200px){
+    .sidebar{
+        width: 20%;
+    }
+    .content{
+        margin-left: 25%;
+        width: 75%;
+    }
+    footer{
+        margin-left: 25%;
+        width: 75%;
+    }
+}
 @media only screen and (max-width: 768px){
     .sidebar{
         width: 100%;
@@ -162,7 +187,9 @@ footer ul li a{
     .subtitle{
         display: none;
     }
-
+    .avatar{
+        display: none;
+    }
     html{
         font-size: 16px;
     }
@@ -170,28 +197,4 @@ footer ul li a{
         display: none;
     }
 }
-@media only screen and (min-width: 1200px){
-    .sidebar{
-        width: 20%;
-    }
-    .content{
-        margin-left: 25%;
-        width: 75%;
-    }
-    footer{
-        margin-left: 25%;
-        width: 75%;
-    }
-}
-#fourofour{
-    color: #21457f;
-    text-align: center;
-}
-#fourofour h1{
-    font-size: 200px;
-    margin: 0;
-}
-#fourofour h2{
-    font-size: 50px;
-    margin: 0;
-}
+
