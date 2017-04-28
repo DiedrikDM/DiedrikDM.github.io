@@ -101,6 +101,9 @@ html{
     color: inherit;
     float:left;
 }
+article.posts{
+    color: #21457f;
+}
 .posts .avatar{
     float: right;
     width: 67px;
