@@ -2,8 +2,10 @@
 <article class="posts">
     <header>
         <h1 class="page-title">{{page.title}}</h1>
+        {% if page.authoravatar and page.author and page.authorurl %}
         <img class="avatar" src="{{ page.authoravatar }}" />
         <h2 class="metadata">Written by <a href="{{ page.authorurl }}">{{ page.author }}</a></h2>
+        {% endif %}
     </header>
     {{content}}
 </article>
