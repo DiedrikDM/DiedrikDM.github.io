@@ -17,7 +17,7 @@ html{
 .sidebar .title{
     margin: 0;
     padding: 0;
-    font-variant-caps: all-small-caps;
+    font-variant: small-caps;
     line-height: 1em;
     font-weight: 500;
 }
@@ -40,10 +40,6 @@ html{
 .sidebar a.button:hover{
     background-color: white;
     color: #21457f;
-}
-.sidebar a.button.bottom{
-    position: absolute;
-    bottom: 20px;
 }
 .content{
     padding: 0;
@@ -103,6 +99,11 @@ html{
 }
 article.posts{
     color: #21457f;
+}
+article.posts a{
+    background-color: #21457F;
+    color: white;
+    padding: 0 5px 2px;
 }
 .posts .avatar{
     float: right;
