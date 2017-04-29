@@ -90,6 +90,7 @@ html{
 
 .posts .metadata a{
     color: #21457f;
+    background-color: transparent;
 }
 .posts .article-title{
     font-size: 1.1em;
