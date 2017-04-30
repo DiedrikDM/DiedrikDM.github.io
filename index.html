@@ -15,7 +15,7 @@ overview: true
                 <time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time>
             </header>
 
-            <div class="article-content">{{ post.content | truncate:250 }}</div>
+            <div class="article-content">{{ post.excerpt }}</div>
         </article>
     {% endfor %}
 </section>
