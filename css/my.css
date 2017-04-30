@@ -105,6 +105,9 @@ html{
     color: #c4c4c4;
     clear: left;
 }
+.posts article:nth-child(odd) > header > time{
+    color: #21457F;
+}
 
 article.posts{
     color: #21457f;

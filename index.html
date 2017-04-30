@@ -11,8 +11,8 @@ overview: true
             <header>
                 <img class="avatar" src="{{ post.authoravatar }}" />
                 <h1 class="article-title">{{ post.title }}</h1>
-                <time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time>
                 <h2 class="metadata">Written by <a href="{{ post.authorurl }}" onclick="event.stopPropagation();">{{ post.author }}</a></h2>
+                <time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time>
             </header>
 
             <div class="article-content">{{ post.content | truncate:250 }}</div>
