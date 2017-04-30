@@ -4,6 +4,7 @@
         <h1 class="page-title">{{page.title}}</h1>
         {% if page.authoravatar and page.author and page.authorurl %}
         <img class="avatar" src="{{ page.authoravatar }}" />
+        <time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time>
         <h2 class="metadata">Written by <a href="{{ page.authorurl }}">{{ page.author }}</a></h2>
         {% endif %}
     </header>

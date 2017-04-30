@@ -97,7 +97,15 @@ html{
     border: none;
     color: inherit;
     float:left;
+    margin-bottom: 0;
 }
+.posts h1 ~ time{
+    float: left;
+    font-size: .8em;
+    color: #c4c4c4;
+    clear: left;
+}
+
 article.posts{
     color: #21457f;
 }
