@@ -128,7 +128,7 @@ article.posts a{
 .posts .article-content{
     margin-top: 20px;
 }
-.posts .article-content img{
+.posts img{
     width: 50%;
     margin: 10px auto;
     display: block;
